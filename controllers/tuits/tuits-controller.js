@@ -10,6 +10,9 @@ const createTuit = (req, res) => {
   newTuit.image = "nasa.jpg"
   newTuit.handle = "@nasa"
   newTuit.time = "now";
+  newTuit.username = "Nasa"
+  newTuit.topic = "Nasa News"
+  newTuit.title = "Nasa did stuff"
   tuits.push(newTuit);
   res.json(newTuit);
 }
